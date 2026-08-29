@@ -37,10 +37,10 @@ Twenty-five years of owning quality in critical systems left me with one bias:
 ```console
 $ oliver --now
 role      AI platform architect · product owner
-scale     SAFe value stream, dozens of teams
-building  agent workflows · MCP servers · Tools · RAG
-studying  math, math with AI, distilled by machines
-playing   helpmates, chess exhaustively
+scale     SAFe value stream, dozens of teams, compliant
+building  agent environments · MCP servers · Tools · RAG · 
+studying  math, math with AI, distilled by machines, a lot of IT
+playing   helpmates, chess exhaustively, math puzzles
 ```
 
 </td>
@@ -99,7 +99,7 @@ together they are one agent environment.
 flowchart LR
     H["AI host<br/><sub>Claude Code · Codex · Copilot · Kiro</sub>"]
     S["ctx.skills<br/><sub>time · ontology · rlm</sub>"]
-    Z["mcp-zerotrust<br/><sub>default-deny · namespaced · audited</sub>"]
+    Z["aegis-mcp<br/><sub>default-deny · namespaced · audited</sub>"]
     R["repo-ctx<br/><sub>symbols, dep graphs, 12 languages</sub>"]
     M["semrag<br/><sub>Qdrant + Neo4j hybrid</sub>"]
     K["knowledge-mcp<br/><sub>document RAG</sub>"]
@@ -130,7 +130,7 @@ check is not an answer.
 
 | repo | what it does | |
 | --- | --- | --- |
-| **[mcp-zerotrust](https://github.com/osick/mcp-zerotrust)** | A zero-trust gateway for MCP, in one Go binary. Capability profiles are default-deny, every tool is namespaced by its origin server so it cannot be shadowed, escalations go through human approval, every decision is audited. Fails closed. | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) |
+| **[aegis-mcp](https://github.com/osick/aegis-mcp)** | A zero-trust gateway for MCP, in one Go binary. Capability profiles are default-deny, every tool is namespaced by its origin server so it cannot be shadowed, escalations go through human approval, every decision is audited. Fails closed. | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) |
 | **[urllm](https://github.com/osick/urllm)** | Point it at any URL, get a grounded GDPR and security audit. Deterministic extraction of the full fingerprint first — cookies, CSP, third-party domains, PII forms, trackers — *then* the LLM. No raw HTML dumped into a prompt. `--fail-on` gates your CI. | |
 | **[SpecBench](https://github.com/osick/SpecBench)** | Benchmarked survey of spec-driven development frameworks — the counter-movement to writing code by hoping. | |
 
@@ -190,7 +190,8 @@ known.** Nor is one known to be impossible.
 
 ## ♞ Chess
 
-Where the mathematics gets a board. In a helpmate, both sides cooperate: Black moves
+I love playing chess with a decent [FIDE rating](https://ratings.fide.com/profile/4601513)
+And chess is sometimes where the mathematics and IT gets a board. In a helpmate, both sides cooperate: Black moves
 first and *helps* White mate in the fewest moves. Because both sides want the same
 thing, it is a cooperative shortest-path problem rather than a min/max tree — so
 whole material classes become tractable, not just single positions.
