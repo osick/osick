@@ -21,9 +21,9 @@
 
 <table border="0">
 <tr>
-<td width="58%" valign="top">
+<td width="58%" valign="top" >
 
-### `whoami`
+### `WHO-AM-I`
 
 I own an AI platform as an architect: agentic environments for SAFe value streams
 with dozens of teams — the workflows, the MCP servers, the guardrails.
@@ -51,7 +51,7 @@ playing   helpmates, chess exhaustively, math puzzles
   <img alt="The trapped knight: 2016 squares on a numbered spiral, then no move is left" src="https://raw.githubusercontent.com/osick/osick/main/assets/trapped-knight-light.svg" width="100%">
 </picture>
 
-<sub><b>The trapped knight.</b> Always jump to the lowest unvisited number on a
+<sub><b>[The trapped knight](https://github.com/osick/the-trapped-knight).</b> Always jump to the lowest unvisited number on a
 square spiral. After 2016 squares, every reachable neighbour has been used —
 stuck on 2084. Colour runs from the first move to the last.</sub>
 
@@ -63,9 +63,8 @@ stuck on 2084. Colour runs from the first move to the last.</sub>
 
 ## ⛏ Legacy modernization with agents
 
-How do you move a legacy system to a modern architecture when the business logic was
-never documented? In 2025 we did exactly that — 50,000 lines, with agents
-reconstructing the domain rules from the code itself.
+How do you move a [legacy system to a modern architecture](https://github.com/osick/archaeocode) when the business logic was never documented? 
+In 2025 we did exactly that — 50,000 lines, with agents reconstructing the domain rules from the code itself.
 
 ```mermaid
 flowchart LR
@@ -164,8 +163,7 @@ set out to answer with automated provers and human proofs together.
 | --- | --- |
 | **[magmaexplorer](https://github.com/osick/magmaexplorer)** | An interactive REPL for the human half of that work. Six mechanically-verified derivation primitives; an LLM may propose derivation steps, but the tool re-executes and verifies every one before it is accepted. Exports to YAML and Lean. |
 | **[SAIRmcp](https://github.com/osick/SAIRmcp)** | MCP server for the SAIR Challenges API, so an agent can work the competition with me. |
-| **[the-trapped-knight](https://github.com/osick/the-trapped-knight)** | The picture at the top, generalised to $(x,y)$-knights. |
-
+| **[the-trapped-knight](https://github.com/osick/the-trapped-knight)** | The picture at the top, generalised to $(x,y)$-knights as Python lib. And the same as [Trapped-knight-Javascript lib](https://github.com/osick/the-trapped-knight.js) |
 <details>
 <summary><b>How far does a greedy knight get?</b> — computed with the library</summary>
 
