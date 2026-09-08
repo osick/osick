@@ -163,6 +163,7 @@ set out to answer with automated provers and human proofs together.
 | --- | --- |
 | **[magmaexplorer](https://github.com/osick/magmaexplorer)** | An interactive REPL for the human half of that work. Six mechanically-verified derivation primitives; an LLM may propose derivation steps, but the tool re-executes and verifies every one before it is accepted. Exports to YAML and Lean. |
 | **[SAIRmcp](https://github.com/osick/SAIRmcp)** | MCP server for the SAIR Challenges API, so an agent can work the competition with me. |
+| **[eqtheory](https://github.com/osick/eqtheory)** | A python library for solving equational theories, the object of the second Challenge of the SAIR foundation|
 | **[the-trapped-knight](https://github.com/osick/the-trapped-knight)** | The picture at the top, generalised to $(x,y)$-knights as Python lib. And the same as [Trapped-knight-Javascript lib](https://github.com/osick/the-trapped-knight.js) |
 <details>
 <summary><b>How far does a greedy knight get?</b> — computed with the library</summary>
